@@ -1,0 +1,33 @@
+@import '../../style/index';
+
+.szfe-stepper__stepper {
+  height: 50px * @size-scale;
+  padding: 16px * @size-scale 0;
+  margin: 0 16px * @size-scale;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: solid 1px #e1e1e1;
+}
+
+.szfe-stepper__placeholder {
+  color: #555;
+}
+
+.szfe-stepper__value-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 4px * @size-scale 6px * @size-scale;
+  border: solid 1px #e1e1e1;
+  border-radius: 2px;
+
+  .szfe-icon {
+    font-size: 18px * @size-scale;
+  }
+
+  .szfe-stepper__value {
+    width: 30px * @size-scale;
+    text-align: center;
+  }
+}

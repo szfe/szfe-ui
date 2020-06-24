@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+/lib
+/es
+
+# dev
+/src/.umi
+
+# misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

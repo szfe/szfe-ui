@@ -1,0 +1,30 @@
+.szfe-fade {
+  &--enter {
+    opacity: 0;
+  }
+
+  &--enter-active {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 200ms;
+  }
+
+  &--enter-done {
+    opacity: 1;
+  }
+
+  &--exit {
+    opacity: 1;
+  }
+
+  &--exit-active {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 200ms;
+  }
+
+  &--exit-done {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

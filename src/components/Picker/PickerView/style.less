@@ -1,0 +1,42 @@
+@import '../../../style/index';
+
+@prefix: szfe-picker-view;
+
+.@{prefix} {
+  margin: 0;
+}
+
+.@{prefix}__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  height: 48px * @size-scale;
+  padding-right: 19px * @size-scale;
+  border-bottom: solid 1px #f5f5f5;
+  font-size: 14px * @size-scale;
+  font-weight: 400;
+  color: #333;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &--active {
+    color: @color-primary;
+
+    .@{prefix}__icon {
+      display: inline-block;
+    }
+  }
+
+  &--disabled {
+    color: #999;
+  }
+}
+
+.@{prefix}__icon {
+  display: none;
+  font-weight: 700;
+  font-size: 20px * @size-scale;
+}

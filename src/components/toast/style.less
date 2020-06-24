@@ -1,0 +1,42 @@
+@import '../../style/index';
+
+.szfe-toast__mask {
+  background-color: transparent;
+}
+
+.szfe-toast__content {
+  max-width: 80vw;
+  margin: 0 auto;
+
+  color: #fff;
+  font-size: 14px * @size-scale;
+  overflow: hidden;
+
+  padding: 8px * @size-scale 12px * @size-scale;
+  min-width: 10px * @size-scale;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.szfe-toast__icon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px * @size-scale 10px * @size-scale;
+
+  .szfe-toast__icon {
+    font-size: 50px * @size-scale;
+    margin-bottom: 6px * @size-scale;
+    font-weight: 100;
+  }
+}
+
+.szfe-toast__text {
+  min-width: 80px * @size-scale;
+  width: 100%;
+  text-align: center;
+  overflow-wrap: break-word;
+  line-height: 20px * @size-scale;
+}

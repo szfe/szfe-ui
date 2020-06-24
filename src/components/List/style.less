@@ -1,0 +1,21 @@
+@import '../../style/index';
+
+.szfe-list {
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: solid 1px #f5f5f5;
+
+  &--borderless {
+    border-bottom: none;
+  }
+
+  &__header {
+    color: #999;
+  }
+
+  & > .szfe-list-item__item {
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

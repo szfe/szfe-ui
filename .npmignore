@@ -1,0 +1,9 @@
+docs
+node_modules
+src
+.fatherrc.js
+.gitignore
+.npmignore
+.prettierignore
+.prettierrc
+yarn.lock

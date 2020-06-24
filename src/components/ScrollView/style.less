@@ -1,0 +1,51 @@
+@import '../../style/index';
+
+.szfe-scroll-view {
+  height: 100%;
+  overflow: hidden;
+
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    height: 6px * @size-scale;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  &::before {
+    top: 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.08),
+      transparent
+    );
+  }
+  &::after {
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.08), transparent);
+  }
+
+  &--can-scroll-up {
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &--can-scroll-down {
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.szfe-scroll-view__content {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+}

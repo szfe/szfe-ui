@@ -1,0 +1,82 @@
+.szfe-transition-switch__transition-group,
+.szfe-transition-switch__animated-switch {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.szfe-transition-switch__animating {
+  & + & {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+
+@keyframes szfe-transition-switch__fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.szfe-transition-switch__fadeInLeft {
+  animation-name: szfe-transition-switch__fadeInLeft;
+}
+
+@keyframes szfe-transition-switch__fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.szfe-transition-switch__fadeInRight {
+  animation-name: szfe-transition-switch__fadeInRight;
+}
+
+@keyframes szfe-transition-switch__fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.szfe-transition-switch__fadeOutLeft {
+  animation-name: szfe-transition-switch__fadeOutLeft;
+}
+
+@keyframes szfe-transition-switch__fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.szfe-transition-switch__fadeOutRight {
+  animation-name: szfe-transition-switch__fadeOutRight;
+}

@@ -1,0 +1,48 @@
+.szfe-slide {
+  &--up-enter {
+    transform: translateY(100%);
+  }
+
+  &--down-enter {
+    transform: translateY(-100%);
+  }
+
+  &--enter-active {
+    transform: translateY(0);
+    transition-property: transform;
+    transition-duration: 200ms;
+  }
+
+  &--enter-done {
+    transform: translateY(0);
+  }
+
+  &--exit {
+    transform: translateY(0);
+  }
+
+  &--down-exit-active {
+    transform: translateY(-100%);
+    transition-property: transform;
+    transition-duration: 200ms;
+  }
+
+  &--down-exit-done {
+    transform: translateY(-100%);
+  }
+
+  &--up-exit-active {
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 200ms;
+  }
+
+  &--up-exit-done {
+    transform: translateY(100%);
+  }
+
+  &--exit-done {
+    pointer-events: none;
+    opacity: 0;
+  }
+}

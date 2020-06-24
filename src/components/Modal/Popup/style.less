@@ -1,0 +1,60 @@
+@import '../../../style/index';
+
+.szfe-popup__modal {
+  min-height: 40%;
+  max-height: 75%;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  border-top-left-radius: 12px * @size-scale;
+  border-top-right-radius: 12px * @size-scale;
+  overflow: hidden;
+}
+
+.szfe-popup__header {
+  background-color: #fff;
+  padding: 0 19px * @size-scale;
+  height: 56px * @size-scale;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  // text-align: center;
+}
+
+.szfe-popup__title {
+  flex: 1;
+  font-size: 16px * @size-scale;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  &--has-right-content {
+    padding-left: 24px * @size-scale;
+
+    &.szfe-popup__title--has-left-content {
+      padding-left: 0;
+    }
+  }
+}
+
+.szfe-popup__close-btn {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+
+  i {
+    font-size: 22px * @size-scale;
+    color: rgb(180, 180, 180);
+  }
+}
+
+.szfe-popup__content {
+  overflow: auto;
+  flex: 1;
+}

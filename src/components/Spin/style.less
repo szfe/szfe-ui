@@ -1,0 +1,30 @@
+@import '../../style/index';
+
+.szfe-spin {
+  border-radius: 50%;
+  border: solid 2px * @size-scale;
+  width: 36px * @size-scale;
+  height: 36px * @size-scale;
+
+  animation: szfe-spin--rotate 1.2s infinite linear;
+  will-change: transform;
+  position: relative;
+
+  border-top-color: #e6e6e6;
+  border-bottom-color: #e6e6e6;
+  border-right-color: #e6e6e6;
+  border-left-color: @color-primary;
+
+  width: 36px * @size-scale;
+  height: 36px * @size-scale;
+}
+
+@keyframes szfe-spin--rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
