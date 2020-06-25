@@ -28,6 +28,7 @@ module.exports = {
       'babel-plugin-import',
       {
         libraryName: 'szfe-ui',
+        libraryDirectory: 'lib/components',
         camel2DashComponentName: false,
         style: (name) => `${name}/style.less`
       },
