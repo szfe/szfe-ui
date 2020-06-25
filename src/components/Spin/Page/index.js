@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 import { classnames } from 'szfe-tools'
 
 import Spin from '../index'
-import './style.less'
+
 
 const SpinPage = forwardRef(function SpinPage(
   { displayDelay, className, ...props },

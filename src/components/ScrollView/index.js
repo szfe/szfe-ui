@@ -11,7 +11,7 @@ import {
 
 import applyRef from '../../helpers/applyRef'
 
-import './style.less'
+
 
 const ScrollView = forwardRef(function ScrollView(
   {

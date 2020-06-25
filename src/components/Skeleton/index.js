@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import { classnames } from 'szfe-tools'
 
-import './style.less'
+
 
 const Skeleton = forwardRef(function Skeleton(
   { className, type, ...props },

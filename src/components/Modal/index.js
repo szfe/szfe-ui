@@ -15,7 +15,7 @@ import Slide from '../Animate/Slide'
 
 import useUpdateEffect from '../../helpers/useUpdateEffect'
 
-import './style.less'
+
 
 const modalMap = new Map()
 

@@ -26,6 +26,7 @@ import {
   Skeleton,
   Steps,
 } from 'szfe-ui'
+import '../src/style'
 
 // Icon.defaultProps.prefix = ''
 

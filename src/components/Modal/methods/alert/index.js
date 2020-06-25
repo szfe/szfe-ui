@@ -3,7 +3,7 @@ import { run, classnames } from 'szfe-tools'
 
 import show from '../show'
 
-import './style.less'
+
 
 function Alert({ title, content, buttonStyle, actions, close }) {
   return (

@@ -5,7 +5,7 @@ import MaterialLabel from '../../MaterialLabel'
 import Icon from '../../Icon'
 import Picker from '../index'
 import useUpdateEffect from '../../../helpers/useUpdateEffect'
-import './style.less'
+
 
 const MaterialPicker = forwardRef(function MaterialPicker(
   {

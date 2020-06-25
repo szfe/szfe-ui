@@ -4,7 +4,7 @@ import { classnames, run } from 'szfe-tools'
 import View from '../View'
 import Icon from '../Icon'
 
-import './style.less'
+
 
 const Empty = forwardRef(function Empty(
   { children, className, renderIcon, ...props },

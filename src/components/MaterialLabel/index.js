@@ -1,7 +1,7 @@
 import React, { forwardRef, useState, useEffect, useRef } from 'react'
 import { classnames, isNumber, get } from 'szfe-tools'
 
-import './style.less'
+
 
 const MaterialLabel = forwardRef(function MaterialLabel(
   {

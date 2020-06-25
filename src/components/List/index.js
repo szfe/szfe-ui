@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 import { isFunction, classnames } from 'szfe-tools'
 
 import Item from './Item'
-import './style.less'
+
 
 const List = forwardRef(function List(
   { headerBorder, renderHeader, className, children, borderless, ...props },

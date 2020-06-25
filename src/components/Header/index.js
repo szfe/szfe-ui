@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import { classnames, run } from 'szfe-tools'
 
-import './style.less'
+
 
 const Header = forwardRef(function Header(
   { renderLeft, renderRight, children, className, ...props },

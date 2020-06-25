@@ -4,7 +4,7 @@ import { classnames } from 'szfe-tools'
 import FoldArrow from './FoldArrow'
 import Icon from '../index'
 
-import './style.less'
+
 
 const Arrow = forwardRef(function Arrow({ className, ...props }, forwardedRef) {
   return (

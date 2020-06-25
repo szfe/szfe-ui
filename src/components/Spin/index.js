@@ -2,7 +2,7 @@ import React, { useState, useRef, forwardRef, useEffect } from 'react'
 import { classnames, delay } from 'szfe-tools'
 
 import Page from './Page'
-import './style.less'
+
 
 const Spin = forwardRef(function Spin(
   { className, displayDelay = 0, ...props },

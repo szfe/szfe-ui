@@ -11,7 +11,7 @@ import Modal from '../Modal'
 import Picker from '../Picker'
 
 import MaterialCascader from './MaterialCascader'
-import './style.less'
+
 
 const { View: PickerView } = Picker
 const { Popup } = Modal

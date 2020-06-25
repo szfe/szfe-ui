@@ -4,7 +4,7 @@ import { classnames, run, get, value as tryValue, throttle } from 'szfe-tools'
 import MaterialLabel from '../../MaterialLabel'
 import Icon from '../../Icon'
 
-import './style.less'
+
 
 const scrollIntoView = throttle(
   (dom) => setTimeout(() => run(dom, 'scrollIntoView', true)),

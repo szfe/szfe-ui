@@ -1,5 +1,5 @@
 import gen from '../genTransition'
-import './style.less'
+
 
 const Up = gen({
   enter: 'szfe-slide--up-enter',

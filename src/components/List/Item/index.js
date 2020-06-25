@@ -3,7 +3,7 @@ import { isFunction, classnames, run } from 'szfe-tools'
 
 import Icon from '../../Icon'
 
-import './style.less'
+
 
 const { Arrow } = Icon
 

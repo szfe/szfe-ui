@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import { run, classnames } from 'szfe-tools'
 
-import './style.less'
+
 
 const Card = forwardRef(function Card(
   {

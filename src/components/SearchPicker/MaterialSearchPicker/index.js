@@ -17,7 +17,7 @@ import PickerView from '../../Picker/PickerView'
 import Empty from '../../Empty'
 import Modal from '../../Modal'
 
-import './style.less'
+
 
 const { Popup } = Modal
 

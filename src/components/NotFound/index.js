@@ -4,7 +4,7 @@ import { classnames } from 'szfe-tools'
 import Icon from '../Icon'
 import View from '../View'
 
-import './style.less'
+
 
 const NotFount = forwardRef(function NotFount(
   { className, ...props },

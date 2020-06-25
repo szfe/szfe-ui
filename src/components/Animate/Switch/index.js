@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import { classnames } from 'szfe-tools'
 
-import './style.less'
+
 
 const TransitionSwitch = forwardRef(function TransitionSwitch(
   { direction, animateKey, children, className, ...props },

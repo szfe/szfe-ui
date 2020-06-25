@@ -11,7 +11,7 @@ import Empty from '../../Empty'
 import Icon from '../../Icon'
 import List from '../../List'
 
-import './style.less'
+
 
 const { Item } = List
 

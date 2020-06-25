@@ -3,7 +3,7 @@ import { run, clamp, isUndefined, classnames } from 'szfe-tools'
 
 import Icon from '../Icon'
 import useUpdateEffect from '../../helpers/useUpdateEffect'
-import './style.less'
+
 
 const Stepper = forwardRef(function Stepper(
   { placeholder, value: propValue, onChange, min, max, className, ...props },

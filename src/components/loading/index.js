@@ -4,7 +4,7 @@ import { run, classnames, clamp } from 'szfe-tools'
 import Spin from '../Spin'
 import Modal from '../Modal'
 
-import './style.less'
+
 
 const { show: showModal, Station } = Modal
 

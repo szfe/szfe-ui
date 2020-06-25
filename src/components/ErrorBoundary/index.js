@@ -4,7 +4,7 @@ import { run } from 'szfe-tools'
 import View from '../View'
 import Page from './Page'
 
-import './style.less'
+
 
 export default class ErrorBoundary extends Component {
   static Page = Page

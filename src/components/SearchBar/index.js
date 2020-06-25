@@ -5,7 +5,7 @@ import Icon from '../Icon'
 
 import useUpdateEffect from '../../helpers/useUpdateEffect'
 
-import './style.less'
+
 
 const SearchBar = forwardRef(function SearchBar(
   { value: propValue, onChange, className, ...props },

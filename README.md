@@ -16,6 +16,26 @@ npm install szfe-ui --save
 import { ScrollView } from 'szfe-ui'
 ```
 
+## 按需加载
+
+配合 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) 实现按需加载，需将 `camel2DashComponentName` 配置关闭
+
+```js
+// babel.config.js
+module.exports = {
+  plugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'szfe-ui',
+        camel2DashComponentName: false,
+        style: (name) => `${name}/style.less`
+      },
+    ],
+  ],
+}
+```
+
 ## 全部导出如下
 
 ```javascript

@@ -5,7 +5,7 @@ import MaterialLabel from '../../MaterialLabel'
 import Icon from '../../Icon'
 
 import Cascader from '../index'
-import './style.less'
+
 
 const MaterialCascader = forwardRef(function MaterialCascader(
   {

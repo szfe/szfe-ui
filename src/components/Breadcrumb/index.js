@@ -2,7 +2,7 @@ import React, { Fragment, forwardRef } from 'react'
 import { run, classnames } from 'szfe-tools'
 
 import Icon from '../Icon'
-import './style.less'
+
 
 const Breadcrumb = forwardRef(function Breadcrumb(
   { className, data, onItemClick, ...props },

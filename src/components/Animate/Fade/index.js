@@ -1,5 +1,5 @@
 import gen from '../genTransition'
-import './style.less'
+
 
 const Fade = gen({
   enter: 'szfe-fade--enter',

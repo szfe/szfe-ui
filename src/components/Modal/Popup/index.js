@@ -6,7 +6,7 @@ import Header from '../../Header'
 
 import Modal from '../index'
 
-import './style.less'
+
 
 const PopupModal = forwardRef(function PopupModal(
   {

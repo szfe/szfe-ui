@@ -4,7 +4,7 @@ import { get, run, isFunction, classnames } from 'szfe-tools'
 import Icon from '../../Icon'
 import Button from '../../Button'
 
-import './style.less'
+
 
 const ErrorPage = forwardRef(function ErrorPage(
   {

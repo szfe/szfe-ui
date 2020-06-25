@@ -4,7 +4,7 @@ import { run, isNumber } from 'szfe-tools'
 import Icon from '../Icon'
 
 import Modal from '../Modal'
-import './style.less'
+
 
 const { show } = Modal
 

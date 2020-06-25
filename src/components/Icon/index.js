@@ -3,7 +3,7 @@ import { classnames, source } from 'szfe-tools'
 
 import Arrow from './Arrow'
 
-import './style.less'
+
 
 source.css('https://at.alicdn.com/t/font_622014_wkh62u19ggs.css')
 
