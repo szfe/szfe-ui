@@ -15,6 +15,7 @@ jobs:
       id: check
       uses: EndBug/version-check@master
       with:
+        diff-search: false
         file-url: https://unpkg.com/szfe-ui/package.json
         assume-same-version: old
         
