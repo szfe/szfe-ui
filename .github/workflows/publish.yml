@@ -15,9 +15,7 @@ jobs:
       id: check
       uses: EndBug/version-check@master
       with:
-        diff-search: true
         file-url: https://unpkg.com/szfe-ui/package.json
-        assume-same-version: new
         
     - name: Log when changed
       if: steps.check.outputs.changed == 'true'
