@@ -15,6 +15,9 @@ jobs:
       id: check
       uses: EndBug/version-check@master
       with:
+        diff-search: true
+        file-name: package.json
+        assume-same-version: old
         file-url: https://unpkg.com/szfe-ui/package.json
         static-checking: localIsNew
         
