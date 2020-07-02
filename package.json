@@ -39,7 +39,7 @@
     "dumi": "^1.0.31",
     "father-build": "^1.18.0",
     "prettier": "^2.0.5",
-    "react-node-key": "^0.0.4"
+    "react-node-key": "^0.1.7"
   },
   "sideEffects": false
 }

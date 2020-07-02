@@ -10543,12 +10543,14 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-node-key@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/react-node-key/-/react-node-key-0.0.4.tgz#b65451e4a4643a8ff8adf306c3d8cfbeaabc1d31"
-  integrity sha512-DdiEv9BgKBEDnYjQP58wOd0Y2omVGq7QNFxL8wgjAJa/gMf9FKrD0JEAlAkC2IIhGwxdbNbFyF3vwuXKZ73WuQ==
+react-node-key@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/react-node-key/-/react-node-key-0.1.7.tgz#702d756ce9c04c881d47aefe3b40e7f026042c71"
+  integrity sha512-ogNt52P7gTUsg3qc650ZjE5ZoKfthCBfAaXwxSYyeNT6lPO7PEBzW1j/XjYvnmVf7caSxc+7UpQIAO5hpVKT6w==
   dependencies:
+    core-js "^3.6.5"
     jsx-ast-utils "^2.2.1"
+    szfe-tools "^0.0.0-beta.7"
 
 react-router-config@5.1.1:
   version "5.1.1"
@@ -12380,10 +12382,10 @@ symlink-dir@^3.1.1:
     make-dir "^3.0.0"
     rename-overwrite "^2.0.1"
 
-szfe-tools@^0.0.0-beta.5:
-  version "0.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/szfe-tools/-/szfe-tools-0.0.0-beta.5.tgz#695c245a2536e4c9e7270766853d92582211791e"
-  integrity sha512-4TdKDDs8DgHT4VwBUi5YDTyTyHVtSV0aLpRu7oxPsohPOjt09LzCp6+sBY/UTtFeVAgQKrkcJkhfdZaTKEojVQ==
+szfe-tools@^0.0.0-beta.7:
+  version "0.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/szfe-tools/-/szfe-tools-0.0.0-beta.7.tgz#580bacbc3d4e353c6ac00ab337b037aa53d14e96"
+  integrity sha512-/M7+Tel2G8zapfDYZlz17hf9ViqAi/loZMfM81b5iZMyaWL/t5dajBszEBI2kyIDFzlLT4btBcq+BimFgmAHug==
   dependencies:
     "@babel/runtime" "^7.10.2"
 
